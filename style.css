@@ -1,4 +1,11 @@
-
+#logo{
+  letter-spacing: 12px;
+  font-size: 1.4em;
+  color:#ffbdbd;
+}
+#menu{
+  color: #ffbdbd;
+}
 
 .navegacion > a{
     display: inline-block;
@@ -37,6 +44,33 @@
   top:0;
     transition: top 0.5s;
 
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+  color: #fff;
+}
+  .navbar.light .navbar-nav .nav-link{
+  color: #fff;
+}
+.navbar-nav{
+  text-align: center;
+}
+  .nav-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: #ff6f69 !important;
+}
+@media only screen and (max-width:767px){
+  .navbar-nav.ml-auto{
+    background:rgba(0,0,0,0.5);
+  }
+  .navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
 }
 .button {
   background-color: #ddd;
@@ -92,9 +126,6 @@
 }
 .textth{
   text-align: center;
-}
-#tit,#cuerpo{
-  color: black;
 }
 /**Reseñas**/
 
@@ -162,4 +193,46 @@ padding-right: 1.1rem;
 /**Footer**/
 .titulo, .subtitulo{
   color: black;
+}
+/**Página Colombia**/
+#tit{
+  color: black;
+}
+#cuerpo{
+  color: black;
+  font-size: 15px;
+}
+#btn{
+  color: #fff;
+}
+
+/**Formulario**/
+.formulario-body{
+  background-image: url(img/colombia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.formulario{
+  background: rgba(0, -0, -0,-.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow:0 0 30px rgba(0,-0,-0,-0.568) ;
+  color: white;
+}
+.form-control{
+  background: rgba(0, -0, -0, -.3);
+  border-style: none;
+  transition: 0.5s ease-in;
+}
+.ingresar{
+  background: #222A3F;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700 !important;
+  box-shadow: rgba(0, -0, -0, -0.568);
+  transition: 0.5s ease-in;
+}
+.ingresar:hover{
+  color: white;
 }
