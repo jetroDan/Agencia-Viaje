@@ -207,8 +207,24 @@ padding-right: 1.1rem;
 }
 
 /**Formulario**/
+div.containerForm{
+  padding-top: 40px;
+  padding-bottom:40px;
+
+
+}
+.form-control {
+  opacity: 0.8;
+-moz-opacity: 0.8;
+filter: alpha(opacity=80);
+-khtml-opacity: 0.8;
+}
+.colum_vamCom.columTittle{
+  padding-top: 40px;
+  margin-top: 400px;
+}
 .formulario-body{
-  background-image: url(img/colombia.jpg);
+  background-image: url(img/form2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
